@@ -5,14 +5,19 @@ module.exports = {
   fontFamily :{
     raleway :  "var(--raleway)",
   },
-  container: {
-    padding: {
-      DEFAULT: '2rem',
-
-    },
-  },
   theme: {
-    extend: {},
+    extend: {
+      container: {
+        center: true, // Center the container
+        padding: '1rem', // Default padding
+        screens: {
+          sm: '640px',
+          md: '768px',
+          lg: '1024px',
+          xl: '1280px',
+        },
+      },
+    },
   },
   plugins: [],
 }
