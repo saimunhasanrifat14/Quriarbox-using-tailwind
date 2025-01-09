@@ -789,6 +789,18 @@ a, input, label, button {
   margin-top: 41px;
 }
 
+.mb-\[29px\] {
+  margin-bottom: 29px;
+}
+
+.mb-\[15px\] {
+  margin-bottom: 15px;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -2128,6 +2140,10 @@ a, input, label, button {
   padding-top: 67px;
 }
 
+.pb-\[160px\] {
+  padding-bottom: 160px;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2204,12 +2220,20 @@ a, input, label, button {
   font-size: 49px;
 }
 
+.text-\[45px\] {
+  font-size: 45px;
+}
+
 .font-bold {
   font-weight: 700;
 }
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .uppercase {
@@ -2335,6 +2359,15 @@ a, input, label, button {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#222132\] {
+  --tw-text-opacity: 1;
+  color: rgb(34 33 50 / var(--tw-text-opacity, 1));
+}
+
+.text-\[20\] {
+  color: 20;
 }
 
 .underline {
