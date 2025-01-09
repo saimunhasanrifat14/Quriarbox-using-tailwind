@@ -753,6 +753,10 @@ a, input, label, button {
   margin: auto;
 }
 
+.mb-\[15px\] {
+  margin-bottom: 15px;
+}
+
 .mb-\[16px\] {
   margin-bottom: 16px;
 }
@@ -789,16 +793,16 @@ a, input, label, button {
   margin-top: 41px;
 }
 
-.mb-\[29px\] {
-  margin-bottom: 29px;
+.mb-\[30px\] {
+  margin-bottom: 30px;
 }
 
-.mb-\[15px\] {
-  margin-bottom: 15px;
+.mb-\[28px\] {
+  margin-bottom: 28px;
 }
 
-.mb-1 {
-  margin-bottom: 0.25rem;
+.mb-\[22px\] {
+  margin-bottom: 22px;
 }
 
 .box-border {
@@ -930,6 +934,10 @@ a, input, label, button {
 
 .max-w-\[330px\] {
   max-width: 330px;
+}
+
+.max-w-\[670px\] {
+  max-width: 670px;
 }
 
 .flex-shrink {
@@ -2128,6 +2136,10 @@ a, input, label, button {
   padding-bottom: 15px;
 }
 
+.pb-\[160px\] {
+  padding-bottom: 160px;
+}
+
 .pb-\[170px\] {
   padding-bottom: 170px;
 }
@@ -2140,8 +2152,8 @@ a, input, label, button {
   padding-top: 67px;
 }
 
-.pb-\[160px\] {
-  padding-bottom: 160px;
+.pb-\[150px\] {
+  padding-bottom: 150px;
 }
 
 .text-left {
@@ -2216,12 +2228,20 @@ a, input, label, button {
   font-size: 39px;
 }
 
+.text-\[45px\] {
+  font-size: 45px;
+}
+
 .text-\[49px\] {
   font-size: 49px;
 }
 
-.text-\[45px\] {
-  font-size: 45px;
+.text-\[31px\] {
+  font-size: 31px;
+}
+
+.text-\[65px\] {
+  font-size: 65px;
 }
 
 .font-bold {
@@ -2232,8 +2252,8 @@ a, input, label, button {
   font-weight: 600;
 }
 
-.font-extrabold {
-  font-weight: 800;
+.font-normal {
+  font-weight: 400;
 }
 
 .uppercase {
@@ -2312,9 +2332,18 @@ a, input, label, button {
   line-height: 58px;
 }
 
+.leading-\[30px\] {
+  line-height: 30px;
+}
+
 .text-\[\#11111D\] {
   --tw-text-opacity: 1;
   color: rgb(17 17 29 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#222132\] {
+  --tw-text-opacity: 1;
+  color: rgb(34 33 50 / var(--tw-text-opacity, 1));
 }
 
 .text-\[\#261134\] {
@@ -2351,6 +2380,10 @@ a, input, label, button {
   color: rgb(255 175 15 / var(--tw-text-opacity, 1));
 }
 
+.text-\[20\] {
+  color: 20;
+}
+
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity, 1));
@@ -2359,15 +2392,6 @@ a, input, label, button {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\#222132\] {
-  --tw-text-opacity: 1;
-  color: rgb(34 33 50 / var(--tw-text-opacity, 1));
-}
-
-.text-\[20\] {
-  color: 20;
 }
 
 .underline {
